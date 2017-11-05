@@ -7,7 +7,7 @@
   "devDependencies": {
     "browser-sync": "^2.11.0",
     "del": "^2.2.2",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-concat": "^2.6.0",
     "gulp-hash": "^4.1.1",
