@@ -1,0 +1,28 @@
+<nav class="tidal-blue" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">
+        <img style="margin: 15px 0 0 0" width=100px
+        src=/assets/img/logo_white.png />
+      </a>
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="{{ "/" | relative_url }}">Home </a></li>
+            <li><a href="{{ "/services" | relative_url }}">Services</a></li>
+            <li><a href="{{ "/our-approach" | relative_url }}">Approach</a></li>
+            <li><a href="{{ "/products" | relative_url }}">Products</a></li>
+            <li><a href="{{ "/contact-us" | relative_url }}">Contact Us</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="{{ "/services" | relative_url }}">Services</a></li>
+            <li><a href="{{ "/our-approach" | relative_url }}">Approach</a></li>
+            <li><a href="{{ "/products" | relative_url }}">Products</a></li>
+            <li><a href="{{ "/contact-us" | relative_url }}">Contact Us</a></li>
+          </ul>        
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>

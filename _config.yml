@@ -1,0 +1,54 @@
+title: xnlogic
+author: xnlogic
+email: us@xnlogic.com
+description: Turning data into information you can use, with graph databases.
+url: "http://xnlogic.com"
+keywords: "xnlogic,neo4j,graph database"
+copyright: "2017 XN Logic Inc."
+twitter_username: xnlogic
+github_username:  xnlogic
+
+sass:
+    style: compressed
+
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+#Excluded Files
+exclude: ["vendor",
+          "Gemfile",
+          "Gemfile.lock",
+          "gulpfile.js",
+          "node_modules",
+          "package.json",
+          "package-lock.json",
+          "wordpress.xml",
+          "README.md"
+          ]
+
+# Social links
+twitter: "https://twitter.com/xnlogic"
+facebook: "https://www.facebook.com/xnlogic"
+linkedin: "https://www.linkedin.com/company/xnlogic"
+
+# Social Information
+op-title: "xnlogic"
+op-publisher: "xnlogic"
+op-author: "xnlogic"
+twitter-title: "xnlogic"
+twitter-site: "@xnlogic"
+twitter-creator: "@xnlogic"
+twitter-card: "summary_large_image"
+site-hashtags: "#xnlogic"
+site.image: "logo_600.png"
+short-url: ""
+
